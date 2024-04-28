@@ -680,7 +680,7 @@ div#main-nav {
 /* ---------------- latest product ---------------- */
 
 .small-container {
-  max-width: 1080px;
+  max-width: 50%;
   margin: auto;
   padding: 0 25px;
 }
