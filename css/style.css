@@ -676,8 +676,14 @@ div#main-nav {
     color: #A5A5A5;
     margin: 0 0 35px 0; 
 }
-	
+
+
 /*Card Styling*/
+.ProdContainer {
+  width: 100%;
+  max-width: 960px;
+  margin: 100px auto;
+}
 
 .card {
     border: 1px solid #dedede;
