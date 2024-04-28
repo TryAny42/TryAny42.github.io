@@ -679,13 +679,25 @@ div#main-nav {
 
 
 /*Card Styling*/
-.ProdContainer {
-  width: 100%;
-  max-width: 960px;
-  margin: 100px auto;
+
+#product {
+    padding: 60px 0px;
+    background: url('../img/slide4.jpg') top left no-repeat !important;
 }
 
-/*Card Styling*/
+#product h2{
+  color: #fff;
+}
+
+#product h6{
+  color: #fff;
+}
+
+.ProdContainer {
+  width: 100%;
+  max-width: 1080px;
+  margin: 10px auto;
+}
 
 .card {
     border: 1px solid #dedede;
