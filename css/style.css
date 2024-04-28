@@ -651,14 +651,14 @@ div#main-nav {
 }
 
 .service_icon i {
-  color: #FEE16F;
-font-size: 40px;
-margin-top: 0;
-position: relative;
-top: 20px;
-z-index: 20;
-display: block;
-text-align: center;
+	color: #FEE16F;
+	font-size: 40px;
+	margin-top: 0;
+	position: relative;
+	top: 20px;
+	z-index: 20;
+	display: block;
+	text-align: center;
 }
 
 .service_block h3 {
@@ -666,10 +666,10 @@ text-align: center;
     font-weight: 600;
     font-size: 25px;
     color: #fff;
-margin: 35px 0 15px; 
+	margin: 35px 0 15px; 
 }
 #service h6{
-color:#fff;
+	color:#fff;
 }
 .service_block p {
     font-size: 16px;
@@ -677,7 +677,59 @@ color:#fff;
     margin: 0 0 35px 0; 
 }
 	
+/* ---------------- latest product ---------------- */
 
+.small-container {
+  max-width: 1080px;
+  margin: auto;
+  padding: 0 25px;
+}
+
+.col-4 {
+  flex-basis: 33%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+
+.col-4 img {
+  width: 100%;
+}
+
+.title2 {
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+  z-index: -1;
+}
+
+.title2::after {
+  content: "";
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h4 {
+  color: #555;
+  font-weight: normal;
+}
+
+.col-4 p {
+  font-size: 14px;
+}
+
+.col-4:hover {
+  transform: translateY(-5px);
+}
 
 /* Latest Work
 ---------------------------------*/
