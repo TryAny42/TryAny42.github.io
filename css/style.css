@@ -693,6 +693,15 @@ div#main-nav {
   color: #fff;
 }
 
+#product h7 {
+    font-size: 15px;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    display: block;
+}
+
 .ProdContainer {
   width: 100%;
   max-width: 1080px;
