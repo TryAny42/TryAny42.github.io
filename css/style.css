@@ -302,6 +302,16 @@ h6 {
     margin: 0 0 60px 0;
 }
 
+h7 {
+    font-size: 30px;
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    margin: 0px 0 25px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 p {
     line-height: 24px;
     margin: 0;
@@ -602,10 +612,6 @@ div#main-nav {
   float: initial !important;
 }
 
-
-
-
-
 /* Services
 ---------------------------------*/
 
@@ -615,8 +621,8 @@ div#main-nav {
 }
 #service h2{
   color: #fff;
-
 }
+
 .service_wrapper {
     padding: 40px 0 40px;
 }
@@ -636,8 +642,6 @@ div#main-nav {
     height: 85px;
     margin: 0px auto 25px; 
 }
-
- 
 
 .service_icon span {
     background: transparent; 
@@ -683,6 +687,7 @@ div#main-nav {
 #product {
     padding: 60px 0px;
     background: url('../img/slide4.jpg') top left no-repeat !important;
+	text-align: center;
 }
 
 #product h2{
@@ -693,6 +698,7 @@ div#main-nav {
   color: #fff;
 }
 
+<<<<<<< Updated upstream
 #product h7 {
     font-size: 15px;
     color: #000000;
@@ -700,6 +706,10 @@ div#main-nav {
     font-weight: 500;
     text-align: center;
     display: block;
+=======
+#product h7{
+  text-align: center;
+>>>>>>> Stashed changes
 }
 
 .ProdContainer {
@@ -861,7 +871,6 @@ a.contact_btn:hover {
 
 /* Portfolio
 ---------------------------------*/
-
 
 #Portfolio {
     padding: 60px 0px;
