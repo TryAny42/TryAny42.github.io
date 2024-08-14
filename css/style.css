@@ -1306,7 +1306,7 @@ transition: all .3s;
 
 .contact_section h2 {
     font-size: 40px;
-    color: #ffffff;
+    color: #000000;
     margin: 0 0 50px 0;
     text-transform: uppercase;
 }
@@ -1332,7 +1332,7 @@ transition: all .3s;
 
 .contact_block_icon span {
     background: none repeat scroll 0 0 #f56eab;
-    border: 5px solid #fff;
+    border: 5px solid #000000;
     border-radius: 50%;
     display: block;
     height: 100%;
@@ -1356,7 +1356,7 @@ transition: all .3s;
 }
 
 .contact_block_icon i {
-    color: #fff;
+    color: #000000;
     font-size: 36px;
     margin-top: 0;
     position: relative;
@@ -1367,14 +1367,14 @@ transition: all .3s;
 .contact_block span {
     display: block;
     font-size: 16px;
-    color: #ffffff;
+    color: #000000;
     line-height: 20px;
 }
 
 .contact_block span a {
     display: block;
     font-size: 16px;
-    color: #ffffff;
+    color: #000000;
     line-height: 20px;
 }
 
@@ -1387,14 +1387,14 @@ transition: all .3s;
 .contact_info  h3 {
     font-size: 18px;
     font-weight: 600;
-    color: #fff;
+    color: #000000;
 }
 
 .contact_info p {
     line-height: 28px;
     display: block;
     font-size: 16px;
-    color: #ffffff;
+    color: #000000;
     margin: 0 0 30px;
 }
 
@@ -1409,8 +1409,8 @@ transition: all .3s;
 .social_links h3 {
     font-size: 18px;
     font-weight: 600;
-    color: #ffffff;
-	margin: 0 0 0 20px;
+    color: #000000;
+	margin: 0 0 0 17px;
 }
 
 .social_links li {
@@ -1424,7 +1424,7 @@ transition: all .3s;
     text-align: center;
     line-height: 50px;
     font-size: 25px;
-    color: #fff;
+    color: #000000;
 }
 
 .social_links li a:hover, .social_links li a:focus {
@@ -1523,7 +1523,7 @@ transition: all .3s;
 .footer_bottom span {
     display: block;
     font-size: 14px;
-    color: #cccccc;
+    color: #515151;
     text-align: center;
 }
 
