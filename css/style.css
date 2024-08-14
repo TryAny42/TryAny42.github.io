@@ -109,12 +109,12 @@ top: 64%;
   background-color: #FEE16F;
 }
 .caption h2{
-color:#FFFFFF;
-line-height:45px;
-font-size: 70px;
+	color:#FFFFFF;
+	line-height:45px;
+	font-size: 70px;
 }
 .caption strong { 
-  font-size: 26px;
+  font-size: 40;
 }
 
 /* Common style */
