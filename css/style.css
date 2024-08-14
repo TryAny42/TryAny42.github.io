@@ -1402,12 +1402,18 @@ transition: all .3s;
     list-style: none;
 }
 
+.social_linkss  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
 .social_links p {
     line-height: 28px;
     display: block;
     font-size: 16px;
     color: #ffffff;
-    margin: 0 0 10px;
+    margin: 0 0 20px;
 }
 
 .social_links li {
