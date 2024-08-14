@@ -110,11 +110,11 @@ top: 64%;
 }
 .caption h2{
 	color:#FFFFFF;
-	line-height:45px;
+	line-height:15px;
 	font-size: 70px;
 }
 .caption strong { 
-  font-size: 45px;
+  font-size: 60px;
 }
 
 /* Common style */
@@ -1297,7 +1297,7 @@ transition: all .3s;
 }
  
 .contact_section {
-    margin: 0 0 60px 0;
+    margin: 0 0 20px 0;
 }
 
 .contact_section h2 {
