@@ -1410,7 +1410,7 @@ transition: all .3s;
     font-size: 18px;
     font-weight: 600;
     color: #ffffff;
-	margin: 0 0 0 50px;
+	margin: 0 0 0 20px;
 }
 
 .social_links li {
@@ -1512,7 +1512,7 @@ transition: all .3s;
 ---------------------------------*/
 
 .footer_wrapper {
-    background: #000000;
+    background: #ffffff;
 }
 
 .footer_bottom {
