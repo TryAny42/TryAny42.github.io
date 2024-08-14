@@ -1258,7 +1258,7 @@ margin-bottom: 5px;
 }
 
 .team_box ul li a.fa-instagram:hover {
-    color: #002a7b;
+    color: #c13584;
 }
 
 .team_box ul li a.fa-pinterest:hover {
@@ -1410,6 +1410,7 @@ transition: all .3s;
     font-size: 18px;
     font-weight: 600;
     color: #ffffff;
+	margin: 0 0 30px;
 }
 
 .social_links p {
@@ -1417,7 +1418,7 @@ transition: all .3s;
     display: block;
     font-size: 16px;
     color: #ffffff;
-    margin: 0 0 20px;
+    margin: 0 0 30px;
 }
 
 .social_links li {
@@ -1457,7 +1458,7 @@ transition: all .3s;
 }
 
 .instagram a:hover {
-    color: #002a7b;
+    color: #c13584;
 }
  
 
