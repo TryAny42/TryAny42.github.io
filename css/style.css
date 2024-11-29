@@ -730,6 +730,12 @@ div#main-nav {
 	margin: 0 0 10px 0;
 }
 
+.ProdContainer {
+  width: 100%;
+  max-width: 1080px;
+  margin: 10px auto;
+}
+
 .card {
     border: 1px solid #dedede;
     background-color: white;
@@ -765,6 +771,7 @@ div#main-nav {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
+	    justify-content: center;
             width: 100%;
         }
 
