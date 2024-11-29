@@ -765,31 +765,30 @@ div#main-nav {
     display: flex;
     flex-direction: column;
     width: 100%;
-}
 
-.card__wrap--outer {
+    &__wrap {
+
+        &--outer {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             width: 100%;
         }
 
-.card__wrap--inner {
+        &--inner {
             display: flex;
             flex-direction: row;
             width: 100%;
+					
+						@media (min-width: 480px) { 
+								width: 50%;
+						}
+					
+						@media (min-width: 1024px) { 
+								width: 33.33%;
+						}
         }
-
-@media (min-width: 480px) {
-	.card__wrap--inner { 
-                width: 50%
-	}
-}
-
-@media (min-width: 1024px) {
-	.card__wrap--inner { 
-                width: 50%
-	}
+    }
 }
 
 .flexible {
