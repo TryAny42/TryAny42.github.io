@@ -730,12 +730,6 @@ div#main-nav {
 	margin: 0 0 10px 0;
 }
 
-.ProdContainer {
-  width: 100%;
-  max-width: 1080px;
-  margin: 10px auto;
-}
-
 .card {
     border: 1px solid #dedede;
     background-color: white;
@@ -765,31 +759,34 @@ div#main-nav {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
 
-    &__wrap {
-
-        &--outer {
+.card__wrap--outer {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             width: 100%;
         }
 
-        &--inner {
+.card__wrap--inner {
             display: flex;
             flex-direction: row;
             width: 100%;
-		
-		@media (min-width: 480px) { 
-			width: 50%;
-		}
-		
-		@media (min-width: 1024px) { 
-			width: 50%;
-		}
         }
-    }
-}
+
+@media (min-width: 480px) {
+
+.card__wrap--inner { 
+                width: 50%
+        }
+            }
+
+@media (min-width: 1024px) {
+
+.card__wrap--inner { 
+                width: 50%
+        }
+            }
 
 .flexible {
     flex-grow: 1;
