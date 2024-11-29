@@ -781,18 +781,16 @@ div#main-nav {
         }
 
 @media (min-width: 480px) {
-
-.card__wrap--inner { 
+	.card__wrap--inner { 
                 width: 50%
-        }
-            }
+	}
+}
 
 @media (min-width: 1024px) {
-
-.card__wrap--inner { 
+	.card__wrap--inner { 
                 width: 50%
-        }
-            }
+	}
+}
 
 .flexible {
     flex-grow: 1;
