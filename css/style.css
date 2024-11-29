@@ -779,14 +779,14 @@ div#main-nav {
             display: flex;
             flex-direction: row;
             width: 100%;
-					
-						@media (min-width: 480px) { 
-								width: 50%;
-						}
-					
-						@media (min-width: 1024px) { 
-								width: 33.33%;
-						}
+		
+		@media (min-width: 480px) { 
+			width: 50%;
+		}
+		
+		@media (min-width: 1024px) { 
+			width: 50%;
+		}
         }
     }
 }
